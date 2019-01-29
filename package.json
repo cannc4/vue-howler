@@ -19,10 +19,7 @@
     "url": "https://github.com/mickdekkers/vue-howler/issues"
   },
   "license": "MIT",
-  "author": {
-    "name": "Mick Dekkers",
-    "email": "mickdekkersnl@gmail.com"
-  },
+  "author": "Mick Dekkers <mickdekkersnl@gmail.com>",
   "files": [
     "dist",
     "yarn.lock"
@@ -44,7 +41,7 @@
     "test:watch": "karma start ./test/karma.config.js"
   },
   "dependencies": {
-    "howler": "^2.0.5",
+    "howler": "^2.1.1",
     "math-clamp": "^1.0.0",
     "object-assign": "^4.1.1",
     "object-values": "^1.0.0"
@@ -82,5 +79,8 @@
     "vue-template-compiler": "^2.4.2",
     "yargs": "^8.0.2",
     "zlib": "^1.0.5"
+  },
+  "directories": {
+    "test": "test"
   }
 }
